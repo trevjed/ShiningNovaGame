@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7cc4d73-78fe-4b0b-9190-c1289265f167" name="Changes" comment="added README.md">
-      <change afterPath="$PROJECT_DIR$/assets/darkPurpleStarscape.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/GameScreen.java" afterDir="false" />
+    <list default="true" id="a7cc4d73-78fe-4b0b-9190-c1289265f167" name="Changes" comment="added main skeleton of game methods&#10;added scrolling background">
+      <change afterPath="$PROJECT_DIR$/assets/Starscape00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Starscape01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Starscape02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Starscape03.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/jedz/shiningnova/ShiningNovaGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/ShiningNovaGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/jedz/shiningnova/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/GameScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/src/jedz/shiningnova/DesktopLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/jedz/shiningnova/DesktopLauncher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/ShiningNovaGame/build.gradle&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "G:/ShiningNovaGame/build.gradle",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\ShiningNovaGame\assets" />
@@ -102,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663622884116</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added main skeleton of game methods&#10;added scrolling background">
+      <created>1664213185865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664213185865</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +130,7 @@
     <MESSAGE value="Project remade with libGDX" />
     <MESSAGE value="added folders to git" />
     <MESSAGE value="added README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="added README.md" />
+    <MESSAGE value="added main skeleton of game methods&#10;added scrolling background" />
+    <option name="LAST_COMMIT_MESSAGE" value="added main skeleton of game methods&#10;added scrolling background" />
   </component>
 </project>

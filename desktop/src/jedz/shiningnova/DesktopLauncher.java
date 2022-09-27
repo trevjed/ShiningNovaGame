@@ -8,6 +8,7 @@ import jedz.shiningnova.ShiningNovaGame;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
+		config.setWindowedMode(300, 640);
 		config.setForegroundFPS(60);
 		config.setTitle("ShiningNova");
 		new Lwjgl3Application(new ShiningNovaGame(), config);
