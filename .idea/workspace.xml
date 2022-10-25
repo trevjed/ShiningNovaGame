@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7cc4d73-78fe-4b0b-9190-c1289265f167" name="Changes" comment="changed scrolling background to have multiple layers with different scroll speeds">
-      <change afterPath="$PROJECT_DIR$/assets/images.atlas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/Ship.java" afterDir="false" />
+    <list default="true" id="a7cc4d73-78fe-4b0b-9190-c1289265f167" name="Changes" comment="changed image assests into a texture sheet with new textures for player and enemy ships, lasers, shields&#10;Added objects for ships&#10;Added a stationary enemy ship and player ship on screen">
+      <change afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/EnemyShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/Laser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/PlayerShip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Starscape00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Starscape01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Starscape02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Starscape03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/badlogic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/darkPurpleStarscape.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/jedz/shiningnova/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/GameScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/jedz/shiningnova/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/Ship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,21 +49,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "G:/ShiningNovaGame/build.gradle",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/ShiningNovaGame/build.gradle&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\ShiningNovaGame\assets" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jedz.shiningnova" />
     </key>
   </component>
   <component name="RunManager">
@@ -126,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664299150129</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changed image assests into a texture sheet with new textures for player and enemy ships, lasers, shields&#10;Added objects for ships&#10;Added a stationary enemy ship and player ship on screen">
+      <created>1664554641073</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664554641073</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +152,7 @@
     <MESSAGE value="added README.md" />
     <MESSAGE value="added main skeleton of game methods&#10;added scrolling background" />
     <MESSAGE value="changed scrolling background to have multiple layers with different scroll speeds" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed scrolling background to have multiple layers with different scroll speeds" />
+    <MESSAGE value="changed image assests into a texture sheet with new textures for player and enemy ships, lasers, shields&#10;Added objects for ships&#10;Added a stationary enemy ship and player ship on screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed image assests into a texture sheet with new textures for player and enemy ships, lasers, shields&#10;Added objects for ships&#10;Added a stationary enemy ship and player ship on screen" />
   </component>
 </project>
