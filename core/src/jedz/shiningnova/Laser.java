@@ -2,8 +2,9 @@ package jedz.shiningnova;
 
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.math.Rectangle;
 
- class Laser {
+class Laser {
 
     //laser physical characteristics
     float movementspeed; //world units per second
@@ -28,4 +29,9 @@ import com.badlogic.gdx.graphics.g2d.TextureRegion;
         batch.draw(textureRegion,xPosition - width/2,yPosition,width,height);
 
     }
+
+    public Rectangle getBoundingBox(){
+        return new Rectangle(xPosition,yPosition,width,height);
+    }
+
 }

@@ -72,8 +72,8 @@ class GameScreen implements Screen {
 
 
          //setup game objects
-         playerShip = new PlayerShip(2,3,0.4f,4,45, 0.5f,10,10,WORLD_WIDTH/2,WORLD_HEIGHT/4, playerShipTextureRegion,playerShieldTextureRegion,playerLaserTextureRegion);
-         enemyShip = new EnemyShip(2,1,0.3f,5,50, 0.8f,10,10,WORLD_WIDTH/2,WORLD_HEIGHT* 3/4, enemyShipTextureRegion,enemyShieldTextureRegion,enemyLaserTextureRegion);
+         playerShip = new PlayerShip(2,6,0.4f,4,45, 0.5f,10,10,WORLD_WIDTH/2,WORLD_HEIGHT/4, playerShipTextureRegion,playerShieldTextureRegion,playerLaserTextureRegion);
+         enemyShip = new EnemyShip(2,5,0.3f,5,50, 0.8f,10,10,WORLD_WIDTH/2,WORLD_HEIGHT* 3/4, enemyShipTextureRegion,enemyShieldTextureRegion,enemyLaserTextureRegion);
 
          playerLaserList = new LinkedList<>();
          enemyLaserList = new LinkedList<>();
@@ -100,6 +100,49 @@ class GameScreen implements Screen {
          //player ship
          playerShip.draw(batch);
 
+         //lasers
+         renderLasers( deltaTime);
+
+         //detect collisions between lasers and ships
+         detectCollisions();
+
+         //explosions
+         renderExplosions(deltaTime);
+
+
+
+        batch.end();
+     }
+     private void detectCollisions(){
+         //for each player laser, check whether it intersects an enemy ship
+         ListIterator<Laser> iterator = playerLaserList.listIterator();
+         while (iterator.hasNext()){
+             Laser laser = iterator.next();
+             if(enemyShip.intersects(laser.getBoundingBox())){
+                 //contact with enemy ship
+                 enemyShip.hit(laser);
+                 iterator.remove();
+             }
+         }
+
+
+         //for each enemy laser, check whether it intersects a player ship
+         iterator = enemyLaserList.listIterator();
+         while (iterator.hasNext()){
+             Laser laser = iterator.next();
+             if(playerShip.intersects(laser.getBoundingBox())){
+                 //contact with player ship
+                 playerShip.hit(laser);
+                 iterator.remove();
+             }
+         }
+
+     }
+
+     private void renderExplosions(float deltaTime){
+
+     }
+     private void renderLasers(float deltaTime){
          //lasers
          //create new lasers
          //player lasers
@@ -140,14 +183,6 @@ class GameScreen implements Screen {
                  iterator.remove();
              }
          }
-
-
-         //explosions
-
-
-
-        batch.end();
-
 
      }
      private void renderBackground(float deltaTime){

@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7cc4d73-78fe-4b0b-9190-c1289265f167" name="Changes" comment="changed image assests into a texture sheet with new textures for player and enemy ships, lasers, shields&#10;Added objects for ships&#10;Added a stationary enemy ship and player ship on screen">
-      <change afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/EnemyShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/Laser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/PlayerShip.java" afterDir="false" />
+    <list default="true" id="a7cc4d73-78fe-4b0b-9190-c1289265f167" name="Changes" comment="Added Laser objects and draw logic&#10;Flipped enemy shield">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/jedz/shiningnova/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/GameScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/jedz/shiningnova/Laser.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/Laser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/jedz/shiningnova/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/Ship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664554641073</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Laser objects and draw logic&#10;Flipped enemy shield">
+      <created>1666718763438</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666718763438</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +158,7 @@
     <MESSAGE value="added main skeleton of game methods&#10;added scrolling background" />
     <MESSAGE value="changed scrolling background to have multiple layers with different scroll speeds" />
     <MESSAGE value="changed image assests into a texture sheet with new textures for player and enemy ships, lasers, shields&#10;Added objects for ships&#10;Added a stationary enemy ship and player ship on screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed image assests into a texture sheet with new textures for player and enemy ships, lasers, shields&#10;Added objects for ships&#10;Added a stationary enemy ship and player ship on screen" />
+    <MESSAGE value="Added Laser objects and draw logic&#10;Flipped enemy shield" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Laser objects and draw logic&#10;Flipped enemy shield" />
   </component>
 </project>
