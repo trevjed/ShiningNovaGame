@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7cc4d73-78fe-4b0b-9190-c1289265f167" name="Changes" comment="Added Laser objects and draw logic&#10;Flipped enemy shield">
+    <list default="true" id="a7cc4d73-78fe-4b0b-9190-c1289265f167" name="Changes" comment="Added collision detection&#10;Added shield removal based on number of laser hits">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/jedz/shiningnova/EnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/EnemyShip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/jedz/shiningnova/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/GameScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/jedz/shiningnova/Laser.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/Laser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/jedz/shiningnova/PlayerShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/PlayerShip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/jedz/shiningnova/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/jedz/shiningnova/Ship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +58,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -136,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666718763438</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added collision detection&#10;Added shield removal based on number of laser hits">
+      <created>1667669149948</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667669149948</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +168,7 @@
     <MESSAGE value="changed scrolling background to have multiple layers with different scroll speeds" />
     <MESSAGE value="changed image assests into a texture sheet with new textures for player and enemy ships, lasers, shields&#10;Added objects for ships&#10;Added a stationary enemy ship and player ship on screen" />
     <MESSAGE value="Added Laser objects and draw logic&#10;Flipped enemy shield" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Laser objects and draw logic&#10;Flipped enemy shield" />
+    <MESSAGE value="Added collision detection&#10;Added shield removal based on number of laser hits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added collision detection&#10;Added shield removal based on number of laser hits" />
   </component>
 </project>

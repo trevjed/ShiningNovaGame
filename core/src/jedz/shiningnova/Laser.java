@@ -10,28 +10,27 @@ class Laser {
     float movementspeed; //world units per second
 
     //position and dimensions
-    float xPosition, yPosition;// bottom center of the laser
-    float width, height;
+    Rectangle boundingBox;
 
     //graphics
     TextureRegion textureRegion;
 
-    public Laser(float movementspeed, float xPosition, float yPosition, float width, float height, TextureRegion textureRegion) {
+    public Laser(float movementspeed, float xCenter, float yBottom, float width, float height, TextureRegion textureRegion) {
         this.movementspeed = movementspeed;
-        this.xPosition = xPosition;
-        this.yPosition = yPosition;
-        this.width = width;
-        this.height = height;
+
+        this.boundingBox = new Rectangle(xCenter - width/2,yBottom,width,height);
+
         this.textureRegion = textureRegion;
     }
 
     public void draw(Batch batch){
-        batch.draw(textureRegion,xPosition - width/2,yPosition,width,height);
+        //batch.draw(textureRegion,boundingBox.x - boundingBox.width/2,boundingBox.y,boundingBox.width,boundingBox.height);
+        batch.draw(textureRegion,boundingBox.x, boundingBox.y, boundingBox.width, boundingBox.height);
 
     }
 
-    public Rectangle getBoundingBox(){
+    /*public Rectangle getBoundingBox(){
         return new Rectangle(xPosition,yPosition,width,height);
-    }
+    }*/
 
 }
